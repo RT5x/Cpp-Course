@@ -1,0 +1,34 @@
+/*
+C++ code is written:
+
+The compiler creates a binary File that is not readable by a human
+    Binary System used by CPU (Stored into Random Access Memory):
+        - Allocates storage on memory for each variable and statement.
+        - The function is stored in completely separately allocated memory.
+            Returns to reading statements in order after jumping to a new statement.
+
+
+
+*/
+
+
+/*
+C++ Core Language vs. Standard Library Vs STL
+
+    C++ Core Language features:
+        - Basic building block of the C++ language. "The foundation of basic C++ programs".
+        - Syntax, how variables are defined, basic features of C++
+        - Defines how code is written and interpreted by the compiler.
+    
+    Standard Library:
+        - Set of ready-to-use components that are easily used in C++ programs.
+        - Uses a hashtag (#) to include specialized library to be used in your program.
+        - Standard libary features are used to speed up writing a program, or even making it easier to read.
+
+    STL: 
+        - Part of the standard library, but is a collection of container types.
+        - Allows storage of collections, algorithms, and specialized types (iterators) that allow to navegate through the containers.
+        - Essentially a highly specialized part of the C++ standard libaries.
+
+
+*/
