@@ -62,7 +62,7 @@ std::cout << std::endl;
         Returns positive value if left string appears after right string in lexicographical order
     */
 
-size_t n{3};
+size_t n{3};    // compares first 3 character
 std::cout << std::endl;
 std::cout << "std::strncmp : " << std::endl;
 std::cout << "str::strncmp ('" << string_1 << ","<<string_2<< ","<< n << "') : " << std::strncmp(string_1, string_2, n) << std::endl;   // still 0
