@@ -18,9 +18,9 @@ std::cout << "str::strcat : " << std::endl;
     std::cout << std::endl;
 
 std::cout << "Joining strings with str::strcat : "<<std::endl;
-    char * dest1 = new char [30] {'M','e','s','s','a','g','e'}; // Dynamic array, lives on heap memory
-    char * source1 = new char [30] {' ', 'd', 'e', 'l', 'i', 'v', 'e', 'r', 'e','d'};
-    std::cout << "std::strlen(dest1) : " << std::strlen(dest1) << std::endl;    // 7
+    char * dest1 = new char [30] {'M','e','s','s','a','g','e', '\0'}; // Dynamic array, lives on heap memory
+    char * source1 = new char [30] {' ', 'd', 'e', 'l', 'i', 'v', 'e', 'r', 'e','d', '\0'};
+    std::cout << "std::strlen(dest1) : " << std::strlen(dest1) << std::endl;    // 7 (Null character excluded)
     std::cout << "std::strlen(source1) : " << std::strlen(source1) << std::endl;    // 10
     std::strcat(dest1, source1);
     std::cout << "strlen(dest1) : " << std::strlen(dest1) << std::endl; // 17
@@ -47,8 +47,9 @@ std::cout << "std::strcpy : " << std::endl;
     char dest4[] = {'1', '2', '3', '4', '5', '6', '7', '\0'};   // Adds terminating null character '\0' to end/print
     std::strncpy(dest4, source4, 5);    // Copies 5 characters from source to destination. Overrides  1, 2, 3, 4, 5, with "Hello"
     std::cout << "dest4 : " << dest4 << std::endl;
-
+// 
 
 return 0;
 
 }
+
