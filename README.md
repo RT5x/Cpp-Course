@@ -4,4 +4,4 @@ Work in progress.
 
 Development Environment: Visual Studio Code
 
-Compiler Support: GCC, MSVC, G++, CLANG, CLANG++
+Compiler Support: GNU Compiler Collection (GCC)
