@@ -90,7 +90,7 @@ for(size_t i{}; i < std::size(original_str); ++i){
 }
 
 std::cout << "original string : " << original_str << std::endl;
-std::cout << "uppercase string : " << dest_str << std::endl;
+std::cout << "uppercase string : " << dest_str << "\n";
 
 // Turn string into lowercase
 for(size_t i{}; i < std::size(original_str); i++){
